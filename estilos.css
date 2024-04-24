@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    font-family: 'Rubik', arial, sans-serif;
+}
+
+body{
+    background-color: #CED6E0;
+}
+
+nav > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2px 550px;
+    font-family: arial;
+}
+
+
+.menu > ul{
+    display: flex;
+}
+
+.menu > ul > a {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px 50px;
+    padding: 5px 0;
+    font-size: 22px;
+    color: rgb(26, 24, 24);
+    border-bottom: 2px solid transparent;
+    transition:  .5s;
+}
+
+.menu > ul > a:hover {
+    border-color: black;
+}
+
+.title > .container{
+    padding: 0 13%;
+}
+
+.brand_title{
+    margin: 100px 0 -150px;
+}
+
+.brand_title > h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    color: #2F3542;
+    font-family: arial;
+}
+
+.brand_title > p{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #57606F;
+}
+
+.brand_title > span{
+    margin-left: 115px;
+    color: #747D8C
+}
+
+.car > img{
+    width: 100%;
+}
+
+.car{
+ margin-left: 100px;
+}
+
+.main_historia{
+    font-size: 22px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-color: #57606f27;
+    padding: 10px 20px 10px 20px;
+    padding-bottom: 40px;
+}
+
+#title_historia{
+    font-size: 44px;
+    margin-left: 45%;
+    color: rgb(14, 29, 39)
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 23px;
+}
+
+#ficha{
+    font-size: 44px;
+    margin-top: 46px;
+    margin-left: 44%;
+    color: rgb(121, 45, 5);
+}
+
+#blac{
+    color: rgb(14, 29, 39);
+}
+
+#red{
+    color:  rgb(169 21 5);
+}
+
+#yellow{
+    color: rgb(223, 157, 91) ;
+
+}
+
+.card{
+    width: 21%;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#title_galeria{
+    font-size: 44px;
+    margin-left: 45%;
+    color: rgb(223, 157, 91);
+}
+
+.fotos_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fotos_container img{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.fotos_container img:hover{
+    -webkit-transform: scale(.5);
+    transform: scale(1.1);
+}
+
+.foto{
+    border-radius: 15px;
+    padding: 15px 10px 25px 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;   
+}
+
+.foto img{
+  width: 560px;
+  height: 380px;
+  border-radius: 50px;
+  box-shadow: 13px 20px 20px rgb(104 115 121);
+}
+
+.icone_linkedin img{
+    border-radius: 20px;
+    margin: 20px 10px 30px 30px;
+    margin-left: 46%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.icone_linkedin img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+footer p{
+    margin-left: 800px;
+}
+
